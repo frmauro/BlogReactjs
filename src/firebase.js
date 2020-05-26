@@ -18,6 +18,8 @@ class Firebase{
     constructor(){
         // Initialize Firebase
         app.initializeApp(firebaseConfig);
+
+        //Referenciando o database em outros locais
         this.app = app.database();
         //firebase.analytics();
     }
